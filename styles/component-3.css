@@ -1,0 +1,54 @@
+.component-3 {
+  min-width: 1920px;
+  height: 884px;
+  position: relative;
+  margin: 0 auto;
+
+}
+.component-3 > img{
+  position: absolute;
+  right: 160px;
+  top: 80px;
+}
+.component-3 span {
+  color: #ffffff;
+  
+}
+.text {
+  height: 100%;
+  width: 750px;
+  margin-left: 376px;
+  margin-top: 235px;
+}
+.text > span:first-of-type {
+  width: 680px;
+  font-family: GlacialIndifference-Bold;
+  font-size: 80px;
+  line-height: 87px;
+  margin-bottom: 24px;
+}
+.text > span:last-of-type {
+  width: 540px;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Muli";
+  padding-left: 2px;
+  margin-bottom: 56px;
+}
+.text > button {
+  bottom: 194px;
+  width: 180px;
+  height: 58px;
+  font-size: 12px;
+  font-family: "Muli";
+  letter-spacing: 1px;
+  line-height: 15px;
+  cursor: pointer;
+  border: none;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  margin-left: -4px;
+  color: #ffffff;
+  
+}
+

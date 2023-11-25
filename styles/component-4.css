@@ -1,0 +1,134 @@
+.component-4 {
+  min-width: 1920px;
+  height: 862px;
+  justify-content: center;
+}
+.comp4container {
+  align-items: center;
+  margin-top: 128px;
+}
+.comp4container > div:first-child {
+  width: 650px;
+  height: 95px;
+  padding-left: 24px;
+  margin-bottom: 52px;
+}
+.comp4container > div:first-child > p {
+  font-family: GlacialIndifference-Bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+.comp4container > div {
+  text-align: center;
+  padding-top: 2px;
+}
+.comp4container > div > p > span {
+  font-size: 38px;
+  font-family: Helvetica, sans-serif;
+}
+
+.boxes-container {
+  width: 1182px;
+  margin-left: 22px;
+  margin-bottom: 86px;
+}
+
+.boxes-container > div {
+  box-sizing: border-box;
+  background-color: #edf7ff;
+  width: 360.5px;
+  height: 290px;
+}
+.boxes-container > div:nth-child(2) {
+  margin-left: 47px;
+  margin-right: 39px;
+}
+.boxes-container > div:nth-child(1) >.image-placeholder > img{
+  padding-left: 4px;
+  padding-top: 4px;
+}
+.image-placeholder {
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 84px;
+  margin-top: 36px;
+  margin-left: 32px;
+}
+
+.boxes-container > div:hover {
+  border: 3px solid #ee3364;
+  filter: drop-shadow(
+    8px 13.856406211853027px 21.5px rgba(121, 121, 121, 0.48)
+  );
+}
+.boxes-container > div:hover .image-placeholder {
+  background-color: #ee3364;
+}
+.boxes-container > div:nth-child(2):hover .image-placeholder > img,
+.boxes-container > div:nth-child(3):hover .image-placeholder > img {
+  padding-bottom: 5px;
+  padding-right: 4px;
+}
+
+.boxes-container > div:hover .textfor-office-welcom2 {
+  padding-left: 36px;
+  padding-top: 26px;
+}
+
+.boxes-container > div:nth-child(3):hover > .textfor-office-welcom2 {
+  padding-top: 18px;
+}
+.boxes-container > div:nth-child(1) > .image-placeholder > img {
+  padding-right: 5px;
+}
+.boxes-container > div:nth-child(2) > .image-placeholder > img {
+  padding-top: 12px;
+  padding-left: 1px;
+}
+.boxes-container > div:nth-child(3) > .image-placeholder > img {
+  padding-left: 2px;
+  padding-top: 4px;
+}
+.textfor-office-welcom1 {
+  font-family: GlacialIndifference-Bold;
+  font-size: 25px;
+  color: #2e2e2e;
+  padding-top: 18px;
+  padding-right: 32px;
+}
+.textfor-office-welcom2 {
+  font-size: 14px;
+  font-family: Muli regular;
+  line-height: 24px;
+  text-align: left;
+  color: #838383;
+  padding-left: 40px;
+  padding-top: 29px;
+  width: 320px;
+}
+.boxes-container > div:nth-child(2) > .textfor-office-welcom1 {
+  padding-left: 14px;
+}
+.boxes-container > div:nth-child(3) > .textfor-office-welcom1 {
+  padding-left: 0;
+  padding-right: 92px;
+}
+.boxes-container > div:nth-child(3) > .textfor-office-welcom2 {
+  padding-top: 22px;
+}
+
+.comp4container button {
+  font-family: Muli-Bold;
+  width: 204px;
+  height: 66px;
+  border: none;
+  background-color: #ee3364;
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-left: 13px;
+}

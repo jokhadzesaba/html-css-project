@@ -1,0 +1,108 @@
+.component-12 {
+  min-width: 1920px;
+  height: 708px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.comp12container {
+  width: 1570px;
+  padding-left: 390px;
+  padding-top: 40px;
+  position: relative;
+  justify-content: center;
+}
+.comp12main > p:first-child > span {
+  color: #ee3364;
+}
+.comp12main > p:first-child {
+  width: 750px;
+  font-family: GlacialIndifference-Bold;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -3px;
+  margin-bottom: 16px;
+}
+.comp12main > p:nth-child(2) {
+  width: 730px;
+  font-family: Muli regular;
+  font-size: 17px;
+  line-height: 28px;
+  color: #2e2e2e;
+  letter-spacing: -0.4px;
+  padding-left: 4px;
+  margin-bottom: 42px;
+}
+.comp12container > img:first-of-type {
+  position: absolute;
+  left: 52px;
+  top: -8px;
+}
+.comp12container > img:nth-of-type(2) {
+  position: absolute;
+  right: 0px;
+  top: 248px;
+}
+.comp12container > img:nth-of-type(3) {
+  position: absolute;
+  width: 460px;
+  height: 464px;
+  transform: rotate(-10deg);
+  top: -30px;
+  left: 232px;
+}
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 360px);
+  grid-template-rows: repeat(2, 60px);
+  column-gap: 16px;
+  row-gap: 18px;
+}
+.inputs > select,
+.inputs > input:last-of-type {
+  width: 350px;
+  height: 53px;
+  background-color: #cacaca;
+  border: none;
+}
+.inputs {
+  padding-right: 10px;
+}
+.inputs > input:first-of-type {
+  width: 344px;
+  height: 53px;
+  border: 2px solid #ee3364;
+}
+
+.inputs > input:first-of-type::placeholder,
+.inputs > input:last-of-type::placeholder,
+.inputs > select {
+  font-family: Muli regular;
+  font-size: 14px;
+  color: #222222;
+  padding-left: 25px;
+
+  letter-spacing: -0.6px;
+}
+.inputs > select {
+  padding-left: 28px;
+  padding-top: 2px;
+}
+.inputs > input:first-of-type::placeholder {
+  padding-bottom: 8px;
+}
+.inputs > input:last-of-type::placeholder {
+  padding-left: 28px;
+  letter-spacing: -1px;
+}
+.inputs > button {
+  width: 350px;
+  height: 52px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding-right: 12px;
+  margin-top: 3px;
+}
+.inputs > input:last-of-type::placeholder {
+  padding-left: 30px;
+}

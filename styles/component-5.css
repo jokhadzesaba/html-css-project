@@ -1,0 +1,128 @@
+
+.component-5 {
+  min-width: 1920px;
+  height: 567px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(237,247,255);
+}
+
+.comp5container{
+  
+  margin-left: 35px;
+}
+.comp5part1 {
+  width: 590px;
+}
+.comp5part1 > p:first-of-type {
+  width: 452px;
+  font-family: GlacialIndifference-Bold;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 36px;
+  padding-top: 2px;
+  
+  
+}
+.comp5part1 > p:first-of-type::first-letter{
+  letter-spacing: -6px;
+}
+.comp5part1 > p:nth-of-type(2) {
+  width: 540px;
+  color: #484848;
+  font-family: Muli Regular;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+  
+
+}
+
+.comp5part1 > p:nth-of-type(2) > span{
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #484848;
+}
+
+.author {
+  width: 380px;
+  gap: 26px;
+  padding-top: 24px;
+  padding-left: 2px;
+}
+.author > div:first-child {
+  background-image: url(../images/Rectangle\ 62.png);
+  display: inline-block;
+  height: 88px;
+  width: 111px;
+}
+.author > div:last-child > p:first-child {
+  font-family: GlacialIndifference-Bold;
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 8px;
+  padding-top: 18px;
+}
+.author > div:last-child > p:last-child {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+.comp5part2 {
+  padding-left: 38px;
+  padding-top: 2px;
+  width: 563px;
+}
+
+.comp5part2 > p:first-of-type {
+  width: 500px;
+  font-family: GlacialIndifference-Bold;
+  font-size: 36px;
+  line-height: 42.5px;
+  margin-bottom: 20px;
+}
+.field > p {
+  font-size: 16px;
+  line-height: 45px;
+  font-family: GlacialIndifference-Regular;
+  width: 98%;
+  color: #373737;
+  
+}
+.field > span {
+  font-family: GlacialIndifference-Regular;
+  font-size: 18px;
+  color: #373737;
+  padding-top: 13px;
+  padding-right: 6px;
+}
+.stats {
+  padding-left: 4px;
+}
+.bar {
+  width: 97.5%;
+  height: 10px;
+  background-color: white;
+  
+}
+.inner-bar {
+  height: 10px;
+  background-color: #ee3364;
+}
+
+.stats > .bar-wraper:nth-of-type(1) > .bar{
+  margin-bottom: 14px;
+}
+.stats > .bar-wraper:nth-of-type(2) > .bar{
+  margin-bottom: 14px;
+}
+.stats > .bar-wraper:nth-of-type(1) > .bar > .inner-bar {
+  width: 74.9%;
+}
+.stats > .bar-wraper:nth-of-type(2) > .bar > .inner-bar {
+  width: 84.1%;
+}
+
+.stats > .bar-wraper:nth-of-type(3) > .bar > .inner-bar {
+  width: 59.4%;
+}

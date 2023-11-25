@@ -1,0 +1,70 @@
+.component-11 {
+  min-width: 1920px;
+  height: 574px;
+  align-items: center;
+  justify-content: center;
+}
+.flexcontainer{
+    padding-left: 10px;
+}
+.flexcontainer > div:nth-child(1),
+.flexcontainer > div:nth-child(3),
+.flexcontainer > div:nth-child(5) {
+  background-color: #bbbbbb;
+}
+.flexcontainer > div:nth-child(2),
+.flexcontainer > div:nth-child(4) {
+  background-color: #d0d0d0;
+}
+.flexpart {
+  width: 388px;
+  height: 574px;
+  justify-content: center;
+  align-items: center;
+}
+.flexcontainer > div:hover{
+    background-color: black;
+}
+.flexpart:hover > .hidden-div {
+  visibility: visible;
+  background-color: #ee3364;
+}
+
+.hidden-div {
+  width: 358px;
+  height: 553px;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.hidden-content > p:first-child,
+.hidden-content > p:nth-child(2) {
+  color: #ffffff;
+}
+.hidden-content {
+  margin-top: 124px;
+}
+.hidden-content > p:first-of-type {
+  font-family: Muli-Bold;
+  font-weight: bolder;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.hidden-content > p:nth-child(2) {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-left: 48px;
+  margin-bottom: 32px;
+}
+
+.hidden-content > div > img:first-of-type {
+  padding-left: 66px;
+  padding-top: 1px;
+}
+.hidden-content > div > img:last-of-type {
+  width: 27px;
+  height: 21px;
+  padding-left: 10px;
+}

@@ -1,0 +1,82 @@
+.component-7 {
+  min-width: 1920px;
+  background-color: #1b1b1b;
+  height: 309px;
+  justify-content: center;
+  align-items: center;
+}
+.taskcontainer{
+    padding-right: 24px;
+    padding-top: 18px;
+}
+.task {
+  width: 350px;
+  height: 157px;
+  justify-content: center;
+  column-gap: 26px;
+}
+
+.task > .img-placeholder {
+  width: 116px;
+  height: 113px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2c2c;
+}
+.task > .img-placeholder > img {
+  width: 50px;
+  height: 45px;
+}
+.component-7 > .taskcontainer > .task:nth-of-type(2) > .img-placeholder > img {
+  width: 58px;
+  height: 60px;
+}
+.numbers-goals {
+  font-family: GlacialIndifference-Regular;
+  font-weight: 600;
+}
+.numbers-goals > p:first-child {
+  font-size: 57px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  padding-top: 36px;
+  margin-bottom: 28px;
+}
+.numbers-goals > p:last-of-type {
+  width: 200px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.component-7 > .taskcontainer > .task:nth-of-type(1) {
+  margin-right: 54px;
+}
+.component-7 > .taskcontainer > .task:nth-of-type(2) {
+  column-gap: 38px;
+  margin-right: 50px;
+}
+.component-7 > .taskcontainer > .task:nth-of-type(3) {
+  column-gap: 28px;
+}
+.component-7
+  > .taskcontainer
+  > .task:nth-of-type(2)
+  > .numbers-goals
+  > p:first-of-type {
+  font-family: sans-serif;
+  line-height: 38px;
+  font-weight: bold;
+  padding-top: 28px;
+  margin-bottom: 15px;
+}
+
+.component-7
+  > .taskcontainer
+  > .task:nth-of-type(3)
+  > .numbers-goals
+  > p:first-of-type {
+  padding-top: 30px;
+}

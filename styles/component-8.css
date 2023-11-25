@@ -1,0 +1,76 @@
+.component-8 {
+  min-width: 1920px;
+  height: 876px;
+  justify-content: center;
+  align-items: center;
+}
+.comp8container {
+  width: 1000px;
+  column-gap: 172px;
+  padding-right: 190px;
+}
+.layered-image-placeholder {
+  height: 600px;
+  padding-top: 4px;
+  position: relative;
+}
+.second-image {
+  filter: drop-shadow(8.5px 14.722432136535645px 25px rgba(0, 0, 0, 0.29));
+  position: absolute;
+  top: 52px;
+  left: 77px;
+}
+.textcontainer {
+  padding-top: 48px;
+  padding-left: 2px;
+}
+.textcontainer > p:first-child {
+  width: 562px;
+  font-family: GlacialIndifference-Bold;
+  color: #1c1c1c;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 32px;
+}
+.textcontainer > p:nth-child(2) {
+  width: 580px;
+  font-family: Muli regular;
+  font-size: 16px;
+  line-height: 25px;
+  color: #8b8b8b;
+  letter-spacing: -0.5px;
+  margin-bottom: 22px;
+}
+.list > div:first-child {
+  row-gap: 26px;
+  margin-right: 16px;
+}
+.list > div:last-child {
+  row-gap: 30px;
+  margin-bottom: 60px;
+}
+.list > div:last-child > span {
+  font-family: GlacialIndifference-Bold;
+  font-size: 17px;
+  line-height: 12px;
+  color: #383838;
+}
+.textcontainer > div > p:not(:last-child) {
+  padding-bottom: 1px;
+}
+.textcontainer > div > p > img {
+  margin-right: 16px;
+}
+.textcontainer > button {
+  width: 181px;
+  height: 51px;
+  font-family: Muli-Bold;
+  background-color: #ee3364;
+  color: #ffffff;
+  border: none;
+  padding-bottom: 4px;
+  letter-spacing: 0.3px;
+  padding-right: 0.2px;
+}

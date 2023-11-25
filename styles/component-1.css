@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Muli ExtraLight";
+  src: url(../Muli-ExtraLight.ttf);
+}
+.component-1 {
+  min-width: 1920px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+.component-1 > span {
+  font-family: Muli ExtraLight;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.component-1 > span:first-of-type {
+  padding-bottom: 2px;
+  font-weight: 100;
+}
+.component-1 > img{
+  opacity: 1px;
+}
+.component-1 > img:first-child {
+  width: 18px;
+  height: 14px;
+  opacity: 0.4;
+  margin-right: 19px;
+  padding-right: 3px;
+}
+.component-1 > img:nth-of-type(2) {
+  width: 14px;
+  height: 14px;
+  opacity: 0.4;
+  padding-left: 78px;
+  margin-right: 16px;
+}
+.component-1 > img:nth-of-type(3) {
+  width: 8px;
+  height: 14px;
+  opacity: 0.4;
+  padding-left: 636px;
+  margin-right: 20px;
+}
+.component-1 > img:nth-of-type(4) {
+  width: 15px;
+  height: 12px;
+  opacity: 1;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.component-1 > img:nth-of-type(5) {
+  width: 21px;
+  height: 14px;
+  opacity: 0.4;
+  margin-right: 20px;
+}
+.component-1 > img:last-child {
+  width: 15px;
+  height: 14px;
+  opacity: 0.4;
+}
